@@ -1,0 +1,1 @@
+{"rustc":16448434725525097460,"features":"[]","target":18135671270432249538,"profile":731176819336294830,"deps":[["tensorflow v0.4.0",15542764885617491199]],"local":[{"MtimeBased":[[1513350210,980485197],"/home/johan/dev/glucosense-server/target/debug/.fingerprint/glucosense-server-1526f39c9066ed2c/dep-bin-glucosense_server-1526f39c9066ed2c"]}],"rustflags":[]}
