@@ -5,3 +5,6 @@ authors = ["Johan Larsson <johan.larsson1989@gmail.com>"]
 
 [dependencies]
 tensorflow = "0.4.0"
+postgres = "0.15.1"
+diesel = "0.99.0"
+hyper = "0.11.9"
