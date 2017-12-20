@@ -207,6 +207,7 @@ name = "glucosense-server"
 version = "0.1.0"
 dependencies = [
  "diesel 0.99.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "futures 0.1.17 (registry+https://github.com/rust-lang/crates.io-index)",
  "hyper 0.11.9 (registry+https://github.com/rust-lang/crates.io-index)",
  "postgres 0.15.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "tensorflow 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
