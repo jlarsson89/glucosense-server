@@ -1,9 +1,18 @@
 extern crate hyper;
 extern crate futures;
+extern crate tensorflow;
 
 use futures::future::Future;
 use hyper::header::ContentLength;
 use hyper::server::{Http, Request, Response, Service};
+use tensorflow::Code;
+use tensorflow::Graph;
+use tensorflow::ImportGraphDefOptions;
+use tensorflow::Session;
+use tensorflow::SessionOptions;
+use tensorflow::Status;
+use tensorflow::StepWithGraph;
+use tensorflow::Tensor;
 
 struct HelloWorld;
 const PHRASE: &'static str = "Hello, World!";
