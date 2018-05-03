@@ -1,2 +1,2 @@
 # glucosense-server
-server designed for glucosense
+The server designed for [glucosense](https://github.com/jlarsson89/glucosense)
