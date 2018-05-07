@@ -1,12 +1,12 @@
 [package]
 name = "glucosense-server"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["Johan Larsson <johan.larsson1989@gmail.com>"]
 
 [dependencies]
-tensorflow = "0.7.0"
+tensorflow = "0.9.0"
 postgres = "0.15.2"
-diesel = "1.1.1"
-futures = "0.1.17"
-hyper = "0.11.18"
-rayon = "1.0"
+diesel = "1.2.2"
+futures = "0.2.1"
+hyper = "0.11.26"
+rayon = "1.0.1"
